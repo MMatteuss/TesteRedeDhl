@@ -1,0 +1,15 @@
+Baterias para fazer o aparelho:
+SP930
+L400
+
+SP930: 	Bateria de íons de litio voltagem entre 7,2v e 7,4V com capacidade de 2600mAh contem 3 fios 1 preto, 1 vermelho e outro branco(Vermelhos = positivo (+), Pretos = negativo (–) e Branco = sensor de temperatura (NTC)).
+L400:	Bateris de Íon de lítio, configuração de 2 células internas, voltagem por célula de 3,6 V, voltagem total de ~7,2 V (2 × 3,6 V), capacidade de 3.350 mAh (cada célula). Tem 7 fios, 3 pretos, 3 vermelhos e 1 amarelo (Vermelhos = positivo (+), Pretos = negativo (–) e Amarelo = sensor de temperatura (NTC))
+
+Comparação rápida da L400 para SP930:
+L400: ~7,2V / ~3350 mAh
+SP930: ~7,4V / ~2600 mAh
+
+
+
+LCD: GND, VCC, VO, RS, RW, E, DB0 ate DB7, LED e LED
+mini placa: A ate J - 1 ate 17

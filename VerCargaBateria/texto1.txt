@@ -1,0 +1,16 @@
+o que nos vemos nessa imagem, vemos um Arquino, placa de ensaio pequena, 2 placa de ensaio mini, 5 leds (2 vermelho, 1 amarelo e 2 verde), leads e 2 baterias e um LCD (irei chamar de display). Vamos dizer que essas baterisa são (1- SP930 // 2-- L400).
+O que eu queria fazer, vamos dizer que vai ter 2 conectores, um com entrada femia da SP930 e outro com entrada femia da L400, quando conectar o display vai dizer a porcentagem da bateria, se estiver acima de 70% ele irar piscar o verde, caso esteja entre >=60 ou >=70% ele irar para o amarelo, e se tiver abaixo ele vai piscar o lead vermelho, vamos dizer que o verde é "GOOD" e o amarelo é "PGOOD" e o vermelho é "BED". Como eu poderia fazer esse projeto no tinkcard para depois passar para o visico? se você ver tem um das placas de ensio mini tem ja a conexão de cada fio, então eu simulei que fosse os conectores de cada bateria, do "A B C D E" é a L400 com 7 fios, 3 pretos, 3 vermelhos e 1 amarelo (Vermelhos = positivo (+), Pretos = negativo (–) e Amarelo = sensor de temperatura (NTC)). E apartir do "F G H" sendo da SP930 com 3 fios 1 positivo, 1 negativo e outro NTC. E tem dois leads um vermelho e outro verde, ele vai dizer se estar ok os cabos ate mesmo o NTC, se tiver tudo OK, ele irar verde senão ele vai pra vermelho que seria logo para descarte.
+
+O que eu queria que funcionasse, ele vai estar sempre ligado, então quando alguem conectar a bateria ele automaticamente irar falar quantos porcento estar e se estar bom de utilizar ou não de acordo com o display desmotrando a sua voltagem e os leads dizendo se estar GOOD, PGOOD ou BED e os outro 2 leads dizedo se os cabos estão OK
+
+
+---------
+SP930
+G H I J - 30
+G H I J - 29
+G H I J - 28
+
+L400
+B C D E - 30
+B C D E - 29
+B C D E - 28
